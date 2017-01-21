@@ -1,0 +1,13 @@
+.ok::after {
+    color: green;
+    content: 'OK';
+    font-weight : bold;
+    font-style: italic;
+ }
+
+.failed:after {
+    color: red;
+    content: 'Failed';
+    font-weight : bold;
+    font-style: italic;
+}
